@@ -1,0 +1,17 @@
+.parentClass {
+  height: 500px;
+  width: 300px;
+
+  background-color: blue;
+}
+.childClass {
+  height: 100px;
+  width: 50%;
+  background-color: aqua;
+
+  transition: transform 1s ease-in-out;
+}
+.parentClass:hover .childClass {
+  background-color: green;
+  transform: translateX(100%);
+}
